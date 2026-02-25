@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Archaic Treasures | Alchemical Materiality</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#7d35e9",
+                        "electric-violet": "#6E39E5",
+                        "muted-orchid": "#9854A8",
+                        "deep-eggplant": "#2A0040",
+                        "magenta-lilac": "#C85BD9",
+                        "soft-lavender": "#D2B7DC",
+                        "background-light": "#f7f6f8",
+                        "background-dark": "#171121",
+                    },
+                    fontFamily: {
+                        "display": ["Space Grotesk", "sans-serif"]
+                    },
+                    borderRadius: {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "full": "9999px"
+                    },
+                },
+            },
+        }
+    </script>
+<style>
+        .glass-panel {
+            background: rgba(42, 0, 64, 0.4);
+            backdrop-filter: blur(12px);
+            border: 1px solid rgba(200, 91, 217, 0.2);
+        }
+        .lens-flare {
+            background: radial-gradient(circle, rgba(110, 57, 229, 0.4) 0%, rgba(110, 57, 229, 0) 70%);
+        }
+        .voxel-bg {
+            background-image: radial-gradient(circle at 2px 2px, rgba(210, 183, 220, 0.1) 1px, transparent 0);
+            background-size: 24px 24px;
+        }
+        .crystalline-bg {
+            background: linear-gradient(135deg, #171121 0%, #2A0040 100%);
+        }
+    </style>
+</head>
+<body class="bg-background-light dark:bg-background-dark font-display text-slate-900 dark:text-slate-100 selection:bg-primary/30 overflow-x-hidden">
+<div class="relative min-h-screen voxel-bg">
+<!-- Hero Section with Background Crystalline Texture -->
+<div class="absolute inset-0 z-0 opacity-40 mix-blend-screen pointer-events-none" data-alt="Macro photography of purple crystalline structures and textures" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuC6rUwf7IwW7PPzP81JdwSbCFZl9oFcDOIzF8Ncz0FuI_mQmSIP9UfQ0pp6AEBheLBKDZoboNG8XFhrKJaVFfCfpesTuoAIDj1lhQPbgVd4FuITboVvr5CnY718x87_msnUDvwlJvzpc2PlJzKUcwl8XT313b149s6b7xqKj1hlgoigb2IDk2uYBh9qs3HLVykTMnqigZPZEPMdKKEqS-Yv9XEgs1VFFg7tPLz2rneX04o5QxVEcZELgZlctBe2pmC0lytanFBriMpf'); background-size: cover; background-position: center;">
+</div>
+<div class="layout-container relative z-10 flex h-full grow flex-col">
+<header class="flex items-center justify-between whitespace-nowrap border-b border-white/10 px-6 py-4 lg:px-20">
+<div class="flex items-center gap-8">
+<div class="relative group">
+<div class="absolute -inset-4 lens-flare rounded-full opacity-75 group-hover:opacity-100 transition-opacity"></div>
+<div class="relative flex items-center gap-3 text-white">
+<span class="material-symbols-outlined text-primary text-3xl">deployed_code</span>
+<h2 class="text-xl font-bold tracking-tight">Archaic Treasures</h2>
+</div>
+</div>
+<nav class="hidden md:flex items-center gap-8">
+<a class="text-slate-300 hover:text-primary transition-colors text-sm font-medium" href="#">Collections</a>
+<a class="text-slate-300 hover:text-primary transition-colors text-sm font-medium" href="#">Process</a>
+<a class="text-slate-300 hover:text-primary transition-colors text-sm font-medium" href="#">Materials</a>
+<a class="text-slate-300 hover:text-primary transition-colors text-sm font-medium" href="#">About</a>
+</nav>
+</div>
+<div class="flex items-center gap-6">
+<div class="hidden lg:flex items-center bg-white/5 border border-white/10 rounded-lg px-3 py-1.5">
+<span class="material-symbols-outlined text-soft-lavender/50 text-xl">search</span>
+<input class="bg-transparent border-none focus:ring-0 text-sm placeholder:text-slate-500 w-48" placeholder="Search artifacts..." type="text"/>
+</div>
+<button class="bg-primary hover:bg-primary/90 text-white px-6 py-2 rounded-lg font-bold text-sm transition-all shadow-lg shadow-primary/20">
+                        Shop Now
+                    </button>
+<div class="size-10 rounded-full border-2 border-primary/30 overflow-hidden">
+<img alt="User Profile" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAIdQDl9jiD19tsE3QWZCL8LWi3RtOnrR7XJwuC_zFTcwomaHxF0_ni73zSMIngPgKccwlkn9wHzpR2fpm4fPkTsOoHMaDRLgDPOQ_Z0vZ8ZgzOyZgGxV9diN6Ma66RimLZ2W_Oz3gn_xw510cF2W0pSJ4AAJhApLR4spCWbnHcWJ1xl_3FeiTjQnQiAnsnwjE9Wwzc1QEwMcn1mAYpykXA9InvN0DODhMYysrJXm_1nYqx7fPiDSiVezLNUhn7E5qWHfRWVrZAnBsJ"/>
+</div>
+</div>
+</header>
+<main class="flex-1 px-6 lg:px-20 py-12">
+<!-- Hero Content -->
+<div class="relative @container mb-20">
+<div class="glass-panel rounded-xl overflow-hidden min-h-[560px] flex flex-col items-center justify-center text-center p-8 relative">
+<div class="absolute inset-0 opacity-30 mix-blend-overlay" data-alt="Digital voxels and data bits floating in space" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuDN_OflRLjbLGSRbScghQwjsxUNSNil7aM5N2a7buWPJAgJj6UAN78Gzfq13-40Xvapmn2ATopkItj99eDeD-oaWnRIFVa5ggFjXvo_H8HueoQFz3nJKPwTnC_IDGyNGPQ3eNg6rf-YAEU4yGwLdI5HWtJNC_6e429H_1k7C-Nh9XFQlkltdcWdRXk5qJlmtTQh1BnKuaHyU2z6v_j3X6bcAQCgk4PFGeWhrsb6eHGLagEquxW2GnPmCIS_9azfKeeqCYtO0GFI4RP-'); background-size: cover;"></div>
+<div class="relative z-10 max-w-3xl">
+<div class="inline-block px-4 py-1 rounded-full bg-primary/20 border border-primary/40 text-primary text-xs font-bold uppercase tracking-widest mb-6">
+                                Alchemical Materiality
+                            </div>
+<h1 class="text-5xl lg:text-7xl font-black text-white leading-[1.1] tracking-tight mb-6">
+                                Forged in the Future, <br/>
+<span class="text-transparent bg-clip-text bg-gradient-to-r from-magenta-lilac to-primary">Echoes of the Past</span>
+</h1>
+<p class="text-lg text-soft-lavender/80 mb-10 max-w-2xl mx-auto leading-relaxed">
+                                Witness the transformation of digital voxels into tangible artifacts. Our high-precision resin printing captures historical essence through the lens of modern alchemy.
+                            </p>
+<div class="flex flex-col sm:flex-row items-center justify-center gap-4">
+<button class="w-full sm:w-auto px-8 py-4 bg-primary text-white font-bold rounded-lg hover:scale-105 transition-transform">
+                                    Explore Replicas
+                                </button>
+<button class="w-full sm:w-auto px-8 py-4 bg-white/5 border border-white/10 text-white font-bold rounded-lg hover:bg-white/10 transition-colors">
+                                    Our Ritual
+                                </button>
+</div>
+</div>
+</div>
+</div>
+<!-- Process Section -->
+<section class="mb-24">
+<div class="flex flex-col lg:flex-row justify-between items-end gap-6 mb-12">
+<div class="max-w-xl">
+<h2 class="text-3xl lg:text-4xl font-bold text-white mb-4">The Alchemical Process</h2>
+<p class="text-slate-400">Our studio blends ancient geometry with hyper-modern additive manufacturing. Every layer is a ritual of precision.</p>
+</div>
+<button class="flex items-center gap-2 text-primary font-bold hover:gap-3 transition-all">
+                            View Methodology <span class="material-symbols-outlined">arrow_forward</span>
+</button>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+<div class="group cursor-pointer">
+<div class="glass-panel p-2 rounded-xl mb-4 transition-transform group-hover:-translate-y-2">
+<div class="aspect-video rounded-lg overflow-hidden relative">
+<img class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-500" data-alt="Digital 3D render of a futuristic artifact" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDvR7Xqe41vTakvj3Guenv0pI_0iBlJ4B4OKGwXZ5A68KjTMfL0VHtQ4jGqsa7SCRYxVC89KFS4h2Nn4sDRXuQFvdT_oUPa8NzJsERVpI-GbnbCqz6urU8W7Ouwk_9p7HMCPtB-rRvo_ZnTGVseDhTGFKUQL4wnniOdJ0DLEyrRzfCvukEqYbfQUvVLF7qaPH5yu4c5-ywc17PIQdNLPT7cZH-0uURLPAHMcl0dc50JOu3927qNnV_qquVp6Lkh2WI8dAREQ6m_61kP"/>
+<div class="absolute inset-0 bg-deep-eggplant/40 group-hover:bg-transparent transition-colors"></div>
+</div>
+</div>
+<h3 class="text-white font-bold text-xl mb-2">Digital Alchemy</h3>
+<p class="text-slate-400 text-sm leading-relaxed">Hyper-detailed topological mapping and volumetric data sculpting for perfect historical fidelity.</p>
+</div>
+<div class="group cursor-pointer">
+<div class="glass-panel p-2 rounded-xl mb-4 transition-transform group-hover:-translate-y-2">
+<div class="aspect-video rounded-lg overflow-hidden relative">
+<img class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-500" data-alt="3D printer resin bath with violet light" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAWS-7QfyYIz1SM4j-eIUtbGD620B3lp4Bf_iJo4k-t5Xt3_8CqC1_o79ZEeb8VOvKH60WfLFQmj5kfEn8NTvTB9OiCkvhDXowiTCtMtMRAD7BJec-n7dMGSYTLQLPoyWmKn9SOkb6TittxZGLfgrljqjF7UR0ES5OlwRlzsv5novgGR7-dbTfUNVFgC2Cb5ztUGiB8TiQ5UOKr3UOA2lJjeA9fDwqCyXEB3emyHkCuGdfwM1prIFS7FGWFd20JZwwv9524xtGnnWJZ"/>
+<div class="absolute inset-0 bg-deep-eggplant/40 group-hover:bg-transparent transition-colors"></div>
+</div>
+</div>
+<h3 class="text-white font-bold text-xl mb-2">Ritual Precision</h3>
+<p class="text-slate-400 text-sm leading-relaxed">Ultraviolet photopolymerization emerging from dark pools of specialized violet resin.</p>
+</div>
+<div class="group cursor-pointer">
+<div class="glass-panel p-2 rounded-xl mb-4 transition-transform group-hover:-translate-y-2">
+<div class="aspect-video rounded-lg overflow-hidden relative">
+<img class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-500" data-alt="Macro detail of a 3D printed purple surface" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDfa_mbHYPwJeRi76RpLw3wv1uaQaVj4ZNlottz8xSR6EpIwAxeHoAUyNYxJiW3N71eukDdrVBirzuTfP1CkE5tOXQz6d2fiRzGAaxk_h-oUvFikHg_ZpnMX87sG10ChC6hmHBDWPl2AJk2yCjX2IzprW4hmb9bcaVzcbuT41i3XW-itTA1tRJpaH13VDaBOsqeP0AlVipu7tkt9eI1i5AeqyBIZavEz1r0xd6ZFsPK8S5Zo8dJ4Lr08eu0oXOvWejJY7TXsQLY-mOh"/>
+<div class="absolute inset-0 bg-deep-eggplant/40 group-hover:bg-transparent transition-colors"></div>
+</div>
+</div>
+<h3 class="text-white font-bold text-xl mb-2">Crystalline Finish</h3>
+<p class="text-slate-400 text-sm leading-relaxed">Hand-finished surfaces featuring deep eggplant textures and iridescent orchid accents.</p>
+</div>
+</div>
+</section>
+<!-- Featured Products with "Submerged" aesthetic -->
+<section>
+<h2 class="text-3xl font-bold text-white mb-10">Featured Treasures</h2>
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-10">
+<!-- Card 1 -->
+<div class="glass-panel group relative overflow-hidden rounded-2xl aspect-[16/10] flex flex-col justify-end p-8 border border-magenta-lilac/30">
+<div class="absolute inset-0 z-0">
+<img class="w-full h-full object-cover opacity-80 group-hover:scale-110 transition-transform duration-1000" data-alt="Ornate 3D printed helmet half-submerged in dark liquid" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDwxhUlKHXATMSDVEkc84Bf4PpOc7MZlToYbJapiQSA3tkuwRiJmPIbZGuSGCFeFPH807oY3HBPHckS8MUPvC0-cobpzlaJH3gudOuii4lxF-b7poCDhjRe1xaXnZSMXCD770RrzTyXnOzfnnmyJpuGWr7xPCmHIOY6_VCnmrJ9wNJbiEokfRnPgNJ9tWVngruppk7RfooxKJBupsMEbIE3RzZPwHQnTh0TPc9SQeV21h95BD-sUptMJQzAr8zkhUkXqWIWWQ87Qn5f"/>
+<div class="absolute inset-0 bg-gradient-to-t from-deep-eggplant via-deep-eggplant/60 to-transparent"></div>
+<div class="absolute bottom-0 left-0 right-0 h-1/3 bg-primary/20 backdrop-blur-sm border-t border-white/10"></div>
+</div>
+<div class="relative z-10">
+<span class="text-soft-lavender text-xs font-bold uppercase tracking-widest mb-2 block">Artifact #019</span>
+<h3 class="text-4xl font-black text-white mb-4">The Sovereign Helmet</h3>
+<div class="flex items-center gap-6">
+<p class="text-primary font-bold text-2xl">$1,450</p>
+<button class="bg-white/10 hover:bg-white/20 backdrop-blur px-4 py-2 rounded text-white text-sm font-bold flex items-center gap-2">
+<span class="material-symbols-outlined text-sm">visibility</span>
+                                        View Details
+                                    </button>
+</div>
+</div>
+</div>
+<!-- Card 2 -->
+<div class="glass-panel group relative overflow-hidden rounded-2xl aspect-[16/10] flex flex-col justify-end p-8 border border-magenta-lilac/30">
+<div class="absolute inset-0 z-0">
+<img class="w-full h-full object-cover opacity-80 group-hover:scale-110 transition-transform duration-1000" data-alt="Ancient ritual tool partially covered in violet resin ripples" src="https://lh3.googleusercontent.com/aida-public/AB6AXuChReSY2Cxf0ETmqYj68pL5PGmAByXViyyiKTJ_Rx8VzGz1No0w7zLhkSPrjcrqrx1S1tgoSEV8TonCGpPbi4BCo51O13wXbh46-qsDRw9sd-jip0pGweN5_JGBR4sLG_TrhXCSq4jqQI6x1AtJFw9hdUI8RCAViki0bzICN1sGKO6oxSQf5gIjxG97caIdvnOKlsCEG8A1z9qPfVgDsAfJTdQSsHzi1ErJ7drNFUP4eKyC0e-b9WfmH8M0tEvppdUH0o2DfC4Vi0FM"/>
+<div class="absolute inset-0 bg-gradient-to-t from-deep-eggplant via-deep-eggplant/60 to-transparent"></div>
+<div class="absolute bottom-0 left-0 right-0 h-1/3 bg-primary/20 backdrop-blur-sm border-t border-white/10"></div>
+</div>
+<div class="relative z-10">
+<span class="text-soft-lavender text-xs font-bold uppercase tracking-widest mb-2 block">Artifact #042</span>
+<h3 class="text-4xl font-black text-white mb-4">The Ceremonial Blade</h3>
+<div class="flex items-center gap-6">
+<p class="text-primary font-bold text-2xl">$890</p>
+<button class="bg-white/10 hover:bg-white/20 backdrop-blur px-4 py-2 rounded text-white text-sm font-bold flex items-center gap-2">
+<span class="material-symbols-outlined text-sm">visibility</span>
+                                        View Details
+                                    </button>
+</div>
+</div>
+</div>
+</div>
+</section>
+</main>
+<footer class="border-t border-white/10 px-6 lg:px-20 py-12 mt-20">
+<div class="grid grid-cols-1 md:grid-cols-4 gap-12">
+<div class="col-span-1 md:col-span-2">
+<div class="flex items-center gap-3 text-white mb-6">
+<span class="material-symbols-outlined text-primary text-2xl">deployed_code</span>
+<h2 class="text-lg font-bold">Archaic Treasures</h2>
+</div>
+<p class="text-slate-400 max-w-sm mb-8">
+                            A high-end studio specializing in the intersection of ancient history and cutting-edge additive manufacturing.
+                        </p>
+<div class="flex gap-4">
+<a class="size-10 rounded-full glass-panel flex items-center justify-center text-white hover:text-primary transition-colors" href="#">
+<span class="material-symbols-outlined text-xl">language</span>
+</a>
+<a class="size-10 rounded-full glass-panel flex items-center justify-center text-white hover:text-primary transition-colors" href="#">
+<span class="material-symbols-outlined text-xl">share</span>
+</a>
+</div>
+</div>
+<div>
+<h4 class="text-white font-bold mb-6">Resources</h4>
+<ul class="space-y-4">
+<li><a class="text-slate-400 hover:text-primary transition-colors text-sm" href="#">Case Studies</a></li>
+<li><a class="text-slate-400 hover:text-primary transition-colors text-sm" href="#">Printing Process</a></li>
+<li><a class="text-slate-400 hover:text-primary transition-colors text-sm" href="#">Materials Safety</a></li>
+<li><a class="text-slate-400 hover:text-primary transition-colors text-sm" href="#">Shipping &amp; Returns</a></li>
+</ul>
+</div>
+<div>
+<h4 class="text-white font-bold mb-6">Contact</h4>
+<ul class="space-y-4">
+<li><a class="text-slate-400 hover:text-primary transition-colors text-sm" href="#">studio@archaictreasures.com</a></li>
+<li><a class="text-slate-400 hover:text-primary transition-colors text-sm" href="#">Book a Consultation</a></li>
+<li class="text-slate-400 text-sm">London, SE1 7PB</li>
+</ul>
+</div>
+</div>
+<div class="border-t border-white/5 mt-12 pt-8 flex flex-col md:flex-row justify-between gap-4">
+<p class="text-slate-500 text-xs">© 2024 Archaic Treasures Studio. All rights reserved.</p>
+<div class="flex gap-6">
+<a class="text-slate-500 hover:text-slate-300 text-xs" href="#">Privacy Policy</a>
+<a class="text-slate-500 hover:text-slate-300 text-xs" href="#">Terms of Service</a>
+</div>
+</div>
+</footer>
+</div>
+</div>
+</body></html>
